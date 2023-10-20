@@ -5,6 +5,7 @@ specifiers:
   '@radix-ui/react-dialog': ^1.0.5
   '@radix-ui/react-label': ^2.0.2
   '@radix-ui/react-slot': ^1.0.2
+  '@tailwindcss/forms': ^0.5.6
   '@types/node': ^20.8.6
   '@types/react': ^18.2.15
   '@types/react-dom': ^18.2.7
@@ -32,6 +33,7 @@ dependencies:
   '@radix-ui/react-dialog': 1.0.5_pipvdqpnkok7tsr4kdirij3tbu
   '@radix-ui/react-label': 2.0.2_pipvdqpnkok7tsr4kdirij3tbu
   '@radix-ui/react-slot': 1.0.2_4r6hgnselqdgzo3f3gd364vqle
+  '@tailwindcss/forms': 0.5.6_tailwindcss@3.3.3
   class-variance-authority: 0.7.0
   clsx: 2.0.0
   lucide-react: 0.288.0_react@18.2.0
@@ -923,6 +925,15 @@ packages:
       '@babel/runtime': 7.23.2
       '@types/react': 18.2.28
       react: 18.2.0
+    dev: false
+
+  /@tailwindcss/forms/0.5.6_tailwindcss@3.3.3:
+    resolution: {integrity: sha512-Fw+2BJ0tmAwK/w01tEFL5TiaJBX1NLT1/YbWgvm7ws3Qcn11kiXxzNTEQDMs5V3mQemhB56l3u0i9dwdzSQldA==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      tailwindcss: 3.3.3
     dev: false
 
   /@types/babel__core/7.20.3:
@@ -1887,6 +1898,11 @@ packages:
     dependencies:
       braces: 3.0.2
       picomatch: 2.3.1
+
+  /mini-svg-data-uri/1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
+    dev: false
 
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
